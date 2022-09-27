@@ -18,6 +18,11 @@ body {
 	border: 8px solid gray;
 	border-radius: 5%;
 	margin: 10px auto;
+	&__title {
+		color: white;
+		padding: 20px;
+		text-align: center;
+	}
 }
 
 .nav {
@@ -28,7 +33,7 @@ body {
 		align-items: center;
 		height: 100%;
 		list-style: none;
-		.list__link {
+		.nav__list__link {
 			display: block;
 			font-size: 1.8rem;
 			letter-spacing: 1px;
@@ -50,6 +55,73 @@ body {
 	border: 8px solid gray;
 	border-radius: 5%;
 	margin: 10px auto;
+	overflow: hidden;
+}
+
+// todo
+.todo {
+	color: white;
+	&__result {
+		display: block;
+		text-align: center;
+		font-size: 1.4rem;
+		font-weight: bold;
+		padding: 5px;
+	}
+	&__form {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		flex-shrink: 0;
+		&__input {
+			width: 40%;
+			font-size: 1.2rem;
+			padding: 4px;
+			margin: 5px 0 5px 0;
+			&--checkbox {
+				height: 20px;
+				width: 20px;
+			}
+		}
+		&__label {
+			font-size: 1.1rem;
+			&--checkbox {
+				color: red;
+			}
+		}
+		&__button {
+			background-color: black;
+			color: white;
+			text-transform: uppercase;
+			font-weight: bold;
+			padding: 5px;
+			margin-bottom: 10px;
+			cursor: pointer;
+			&--add {
+				width: 20%;
+				height: 30px;
+				border: 3px solid green;
+			}
+			&--delete {
+				display: block;
+				width: 10%;
+				margin: 0 auto 10px auto;
+				border: 3px solid red;
+				color: red;
+			}
+		}
+	}
+	&__list {
+		list-style: none;
+		&__task {
+			text-align: center;
+			text-transform: uppercase;
+			&--important {
+				color: red;
+				font-weight: bold;
+			}
+		}
+	}
 }
 
 .footer {

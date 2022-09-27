@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 
 const list = [
-	{ name: 'ToDoList', path: '/todolist' },
+	{ name: 'ToDoList', path: '/' },
 	{ name: 'Weather', path: '/weather' },
 	{ name: 'Form', path: '/form' },
 ];
@@ -9,7 +9,7 @@ const list = [
 function Navigation() {
 	const menu = list.map((item, id) => (
 		<li key={id}>
-			<NavLink className="list__link" to={item.path}>
+			<NavLink className="nav__list__link" to={item.path}>
 				{item.name}
 			</NavLink>
 		</li>
