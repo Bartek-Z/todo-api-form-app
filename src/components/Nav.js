@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 const list = [
 	{ name: 'ToDoList', path: '/' },
-	{ name: 'Weather', path: '/weather' },
+	{ name: 'Api', path: '/api' },
 	{ name: 'Form', path: '/form' },
 ];
 
