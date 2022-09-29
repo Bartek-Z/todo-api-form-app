@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/todo-api-form-app/static/css/main.d50ac413.css",
+    "main.js": "/todo-api-form-app/static/js/main.de137265.js",
+    "static/media/background.png": "/todo-api-form-app/static/media/background.648a1fa67f0ac92432cf.png",
+    "index.html": "/todo-api-form-app/index.html",
+    "main.d50ac413.css.map": "/todo-api-form-app/static/css/main.d50ac413.css.map",
+    "main.de137265.js.map": "/todo-api-form-app/static/js/main.de137265.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d50ac413.css",
+    "static/js/main.de137265.js"
+  ]
+}
